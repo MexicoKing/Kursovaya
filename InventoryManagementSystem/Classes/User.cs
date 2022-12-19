@@ -17,9 +17,5 @@
         {
             get { return _password; }
         }
-        public string ToFileString
-        {
-            get { return _userName+"  "+ FullName + "  "+_password+"  "+Phone; }
-        }
     }
 }
