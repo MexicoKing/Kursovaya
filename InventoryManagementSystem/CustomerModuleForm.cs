@@ -20,7 +20,7 @@ namespace InventoryManagementSystem
             {               
                 if (MessageBox.Show("Are you sure you want to save this customer?", "Saving Record", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
-                    customerController.Add(new Customer(1, txtCName.Text, txtCPhone.Text));
+                    customerController.Add(new Customer(customerController.NewID(), txtCName.Text, txtCPhone.Text));
                     MessageBox.Show("User has been successfully saved.");
                     Clear();
                 }
@@ -55,7 +55,7 @@ namespace InventoryManagementSystem
             { 
                 if (MessageBox.Show("Are you sure you want to update this Customer?", "Update Record", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
-                    customerController.Update(new Customer(1, txtCName.Text, txtCPhone.Text));
+                    customerController.Update(new Customer(customerController.NewID(), txtCName.Text, txtCPhone.Text));
                     MessageBox.Show("Customer has been successfully updated!");
                     this.Dispose();
                 }

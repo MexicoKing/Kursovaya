@@ -55,7 +55,7 @@ namespace InventoryManagementSystem
             LoadCustomer();
         }
 
-        private void btnAddCustomer_Click(object sender, EventArgs e)
+        private void btnAddCstm_Click(object sender, EventArgs e)
         {
             CustomerModuleForm moduleForm = new CustomerModuleForm(customerController);
             moduleForm.btnSave.Enabled = true;

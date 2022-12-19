@@ -40,10 +40,6 @@ namespace InventoryManagementSystem
         {
             try
             {
-                /*MessageBox.Show("Welcome " + textName.Text + " ! ", "ACCESS GRANTED", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                MainForm main = new MainForm();
-                this.Hide();
-                main.ShowDialog();*/
                 if (textPass.Text == "123" && textName.Text == "Admin")
                 {
                     MessageBox.Show("Welcome " + textName.Text + " ! ", "ACCESS GRANTED", MessageBoxButtons.OK, MessageBoxIcon.Information);

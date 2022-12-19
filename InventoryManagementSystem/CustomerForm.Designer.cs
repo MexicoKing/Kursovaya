@@ -151,6 +151,7 @@ namespace InventoryManagementSystem
             this.btnAddCstm.TabIndex = 2;
             this.btnAddCstm.Text = "Add";
             this.btnAddCstm.UseVisualStyleBackColor = false;
+            this.btnAddCstm.Click += new System.EventHandler(this.btnAddCstm_Click);
             // 
             // label1
             // 

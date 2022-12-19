@@ -11,9 +11,9 @@ namespace InventoryManagementSystem.Controller
         {
             products = new List<Product>() 
             { 
-                new Product (NewID(), "product1", 5, 20, "someDesctiption", "laptops"),
+                new Product (NewID(), "product1", 5, 20, "someDesctiption", "earphones"),
                 new Product (NewID(), "product2", 2, 25, "someDesctiption2", "laptops"),
-                new Product (NewID(), "product3", 1, 30, "someDesctiption3", "laptops")
+                new Product (NewID(), "product3", 1, 30, "someDesctiption3", "smartphones")
             };
         }
         public void LoadCategory(ComboBox comboBox, CategoryController categoryController)
